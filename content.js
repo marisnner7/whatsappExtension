@@ -6,11 +6,12 @@ const interval = setInterval(() => {
   }
 
   const button = document.createElement("button")
-  button.innerHTML = "2x"
+  button.innerHTML = "1x"
   button.classList.add("twoTimesButton")
 
 
   button.addEventListener("click",() => {
+   event.currentTarget.innerHTML = "2x";
     const audios = document.querySelectorAll("audio")
       audios.forEach((audio)=>{
         audio.playbackRate = 2;
