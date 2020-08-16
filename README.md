@@ -1,5 +1,5 @@
 # whatsappExtension
 
-Extension for Browse. Listen whatSApp Audio in 2x. 
+Extension for Browse. Listen whatsApp Audio in 2x. 
 
 ![Listen](what.png)
